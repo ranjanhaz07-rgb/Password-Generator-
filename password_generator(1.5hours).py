@@ -1,25 +1,3 @@
-# To generate password with only letters and digits
-
-# import random
-# import string
-
-# letters = string.ascii_letters
-# digits = string.digits
-
-# all_char = letters + digits
-
-# length = int(input("Enter your password length:"))
-
-# password = ""
-
-# for i in range(length):
-#     password += random.choice(all_char)
-
-# print("Generating Password.....")
-# print("Generated Password:", password)
-
-# To generate passwords with letters, digits and punctuations
-
 import random
 import string
 
@@ -77,3 +55,4 @@ while True:
   if choice == "no":
      print("Program Ended!")
      break                 
+
